@@ -12,7 +12,7 @@ with open("contacts.txt", "r") as contact_list:
 			time.sleep(10)
 			pyautogui.click()
 			pyautogui.press("enter")
-			time.sleep(1)
+			time.sleep(3)
 			if count:
 				pyautogui.hotkey("ctrl", "shift", "tab")
 				pyautogui.hotkey("ctrl", "w")
